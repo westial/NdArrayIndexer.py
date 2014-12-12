@@ -11,7 +11,7 @@ import numpy as np
 
 class NdArrayIndexer:
     """
-    Adds lower axes indices to the last axe into ndarray.
+    Adds lower axe indices into the higher axe into ndarray.
     """
 
     def __init__(self, ndarray_src):
