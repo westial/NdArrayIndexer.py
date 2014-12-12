@@ -3,16 +3,6 @@ NdArrayIndexer.py
 
 Python class which adds lower axes indices to the last axe into a numpy ndarray.
 
-Quick demonstration:
-
-1. We enter the ndarray:[
-    [[[7, 2, 76], [132, 32, 1], [201, 23, 224], [201, 23, 224]],
-    [[101, 102, 103], [111, 112, 113], [121, 122, 123], [201, 23, 224]]],
-
-    [[[7, 2, 76], [132, 32, 1], [201, 23, 224], [201, 23, 224]],
-    [[101, 102, 103], [111, 112, 113], [121, 122, 123], [201, 23, 224]]]
-]
-
 Description
 -----------
 
@@ -37,11 +27,15 @@ Usage
 
 `indexer.run()`
 
-`indexer.get()`
+`ndarray_with coords = indexer.get()`
 
 The usage example above returns:
 
 `array([[[a1_1, a0_1, x1, y1, z1], [a1_n, a0_n, xn, yn, zn]], [...]])`
+
+So in this case the expression below is true:
+
+`ndarray[a0_n][a1_n] = [xn, yn, zn]`
 
 Examples
 --------
