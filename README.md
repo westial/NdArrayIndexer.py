@@ -42,6 +42,7 @@ Examples
 
 Check the test files:
 
+* tests/test_NdArrayIndexer_10axes.py
 * tests/test_NdArrayIndexer_3axes.py
 * tests/test_NdArrayIndexer_2axes.py
 * tests/test_NdArrayIndexer_1axe.py (it has no effect with only one axe)
