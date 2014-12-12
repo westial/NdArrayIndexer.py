@@ -19,8 +19,11 @@ numpy 1.9
 Usage
 -----
 ```ndarray = array([[[x1, y1, z1], [xn, yn, zn]], [...]])
+
 indexer = NdArrayIndexer(ndarray)
+
 indexer.run()
+
 indexer.get()```
 
 The usage example above returns:
