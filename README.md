@@ -1,7 +1,7 @@
 NdArrayIndexer.py
 =================
 
-Python class which adds lower axe indices into the higher axe into ndarray.
+Python class which adds lower axe indices into the higher axe into numpy ndarray.
 
 Description
 -----------
