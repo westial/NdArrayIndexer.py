@@ -18,13 +18,13 @@ numpy 1.9
 
 Usage
 -----
->> ndarray = array([[[x1, y1, z1], [xn, yn, zn]], [...]])
->> indexer = NdArrayIndexer(ndarray)
->> indexer.run()
->> indexer.get()
+`ndarray = array([[[x1, y1, z1], [xn, yn, zn]], [...]])`
+`indexer = NdArrayIndexer(ndarray)`
+`indexer.run()`
+`indexer.get()`
 
 The usage example above returns:
-array([[[a1_1, a0_1, x1, y1, z1], [a1_n, a0_n, xn, yn, zn]], [...]])
+`array([[[a1_1, a0_1, x1, y1, z1], [a1_n, a0_n, xn, yn, zn]], [...]])`
 
 Examples
 --------
