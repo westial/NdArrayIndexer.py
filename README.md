@@ -15,8 +15,8 @@ the axe 2.
 Requirements
 ------------
 
-Python 2.7.3
-numpy 1.9
+* Python 2.7.3
+* numpy 1.9
 
 Usage
 -----
