@@ -3,6 +3,14 @@ NdArrayIndexer.py
 
 Python class which adds lower axe indices into the higher axe into numpy ndarray.
 
+
+Credits
+-------
+
+Jaume Mila Bea <jaume@westial.com>
+Project home: https://github.com/westial/NdArrayIndexer.py
+
+
 Description
 -----------
 
