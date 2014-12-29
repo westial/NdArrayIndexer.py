@@ -8,6 +8,7 @@ Credits
 -------
 
 Jaume Mila Bea <jaume@westial.com>
+
 Project home: https://github.com/westial/NdArrayIndexer.py
 
 
